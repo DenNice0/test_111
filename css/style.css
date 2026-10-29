@@ -1,0 +1,143 @@
+.model 
+{
+	width: 500px;
+	height: 520px;
+	margin: 50px;
+	border-radius: 15px;
+	background: whitesmoke;
+	border: 10px;
+	border: 5px solid black;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.body
+{
+	background-image: url('../img/1.jpg');
+	background-repeat: no-repeat;
+	background-position: left ;
+	min-width: 10%;
+	background-size: cover;
+	display: flex;
+  
+}
+
+.txt2 
+{
+	color: black;
+	margin-left: 80px;
+	font-size: 18px;
+}
+
+.txt 
+{
+	color: black;
+
+	font-size: 50px;
+}
+
+.txt1
+{
+	color: black;
+	position: relative;
+	margin-left: 145px;
+}
+
+.in 
+{
+  background: transparent;
+  color: black;
+  margin-left: 10px;
+  width: 400px;
+  height: 40px;
+  font-size: 30px;
+  border: none;
+  outline:none ;
+}
+
+.put
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 3px solid black;
+	background: white;
+	border-radius: 20px;
+}
+.but
+{
+	width: 480px;
+	height: 50px;
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(23, 178, 230, 0.8) ;
+	margin-left: 10px;
+	opacity: 100%;
+}
+.but1
+{
+	width:390px;
+	height: 50px;
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(23, 178, 230, 0.8) ;
+	margin-left:50px;
+	opacity: 100%;
+
+}
+a
+{
+	text-decoration: none;
+	color:black;
+
+	font-size: 40px;
+	color: rgba(11, 72, 105, 1);
+}
+
+.but:hover {
+	color: rgba(0, 0, 0, 0);
+
+}
+
+.cyr
+{
+	width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	background: deepskyblue;
+	border: 1 solid darkcyan;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-top: 10px;
+}
+
+.FMA
+{
+	margin: 0px;
+
+}
+.row {
+	display: flex;
+	gap: 5px;
+	margin-left: 10px;
+}
+
+.name 
+{
+	margin-top: 230px;
+	margin-left: 280px;
+	width: 500px;
+	height: 220px;
+	border-radius: 15px;
+	background: blanchedalmond;
+	border: 5px solid black;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.but button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: rgba(11, 72, 105, 1);
+}
